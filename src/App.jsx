@@ -1,6 +1,7 @@
 import Header from './Componentes/Header';
 import ConteudoPrincipal from './Componentes/ConteudoPrincipal';
 import Footer from './Componentes/Footer'; 
+import { Outlet } from 'react-router-dom';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <ConteudoPrincipal/>
+      <Outlet />
       <Footer />
     </>
   )
