@@ -7,19 +7,19 @@ const habilidades = [
     titulo: "React",
     nivel: "Lutando...",
     tempoxp: "2 meses",
-    color: "blue"
+    color: "white"
   },
   {
     titulo: "SQL",
     nivel: "zicoso",
     tempoxp: "2 meses",
-    color: "red"
+    color: "white"
   },
   {
     titulo: "Python",
     nivel: "alto",
     tempoxp: "10 anos",
-    color: "green"
+    color: "white"
   }
   
 ]
